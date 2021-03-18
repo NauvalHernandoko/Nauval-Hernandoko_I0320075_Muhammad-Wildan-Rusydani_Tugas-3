@@ -17,10 +17,20 @@ list_teman.append('agna')
 print("tambah teman:" ,list_teman)
 
 print('===========================================================================')
-
+#perulangan menggunakan for in
 for teman in list_teman :
     print(teman)
 
 print('===========================================================================')
+#perulangan menggunakan while
+nama_teman = []
+nama = input("nama teman:")
+while nama != "" :
+    nama = input("nama teman:")
+    nama_teman.append(nama)
+print(nama_teman)
 
-print("ada {} teman".format(len(list_teman)))
+print('===========================================================================')
+
+print("ada {} teman", len(list_teman))
+print("ada {} teman", len(nama_teman))
